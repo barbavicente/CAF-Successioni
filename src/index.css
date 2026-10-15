@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, Cambria, "Times New Roman", serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-sapienza-red: #7D1B28;
+  --color-sapienza-dark: #56111B;
+  --color-sapienza-gold: #C09840;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom print styles for Domanda di Ammissione Allegato 1 */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Corso di Alta Formazione in Diritto delle Successioni - Sapienza",
+  "description": "Corso di Alta Formazione in Diritto delle Successioni e Tecniche di Pianificazione Patrimoniale (9 CFU) - Sapienza Università di Roma. Direttore: Prof. Vincenzo Barba.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
